@@ -1,0 +1,25 @@
+{
+  "name": "icestark-vue2-child-sample",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "dev": "vite --port 3322"
+  },
+  "repository": "https://github.com/mikana0918/icestark-vue2-child-sample.git",
+  "author": "mikana0918",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "vite": "^2.9.12"
+  },
+  "dependencies": {
+    "vite-plugin-components": "^0.13.3",
+    "vite-plugin-index-html": "^2.0.2",
+    "vite-plugin-vue2": "^2.0.1",
+    "vue": "2.6.14",
+    "vue-router": "3.5.3",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
