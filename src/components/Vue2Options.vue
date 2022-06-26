@@ -1,24 +1,18 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <div class="link" @click="$router.push('/vue2/options')">
-       Vue2 Options
-    </div>
-    <div class="link" @click="$router.push('/vue2/class')">
-       Vue2 Class
-    </div>
-    <div class="link" @click="$router.push('/vue2/class-decorator')">
-       Vue2 Class Decorator
+    <div class="link" @click="$router.push('/vue2')">
+        Go to Home
     </div>
  </div>
 </template>
 
 <script lang="ts">
 export default {
-  name: 'HelloWorld',
+  name: 'Vue2Home',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Vue2 Options!'
     }
   }
 }

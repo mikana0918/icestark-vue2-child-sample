@@ -12,13 +12,17 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "vite": "^2.9.12"
+    "vite": "^2.9.12",
+    "vite-plugin-externals": "^0.5.0"
   },
   "dependencies": {
+    "@ice/stark-app": "^1.5.0",
     "vite-plugin-components": "^0.13.3",
     "vite-plugin-index-html": "^2.0.2",
     "vite-plugin-vue2": "^2.0.1",
     "vue": "2.6.14",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2",
     "vue-router": "3.5.3",
     "vue-template-compiler": "^2.6.14"
   }
