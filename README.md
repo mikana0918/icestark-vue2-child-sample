@@ -5,6 +5,10 @@ This is a sample repository to demonstrate how to create vue2 child app with ice
 - Vue2 Class Component
 - Vue2 Property Decorator
 
+## Related
+- [icestark-layout-sample](https://github.com/mikana0918/icestark-layout-sample)
+  Sample layout app which can be integrated with this vue2 app sample. 
+
 ## Package
 | Key | Value |  
 |---|---| 
