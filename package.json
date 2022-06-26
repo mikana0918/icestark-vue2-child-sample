@@ -15,6 +15,7 @@
     "vite": "^2.9.12"
   },
   "dependencies": {
+    "@ice/stark-app": "^1.5.0",
     "vite-plugin-components": "^0.13.3",
     "vite-plugin-index-html": "^2.0.2",
     "vite-plugin-vue2": "^2.0.1",

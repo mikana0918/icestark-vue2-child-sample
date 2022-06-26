@@ -382,6 +382,11 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
+"@ice/stark-app@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@ice/stark-app/-/stark-app-1.5.0.tgz#cb79e4d135c1f3ada455793b4b7ae325d1b8eb03"
+  integrity sha512-9fuCri48eZj6TnfPkCju4vVLhGurz+mt6lFx4JQFHhnRBQ5MuiBqRZg5F/3vdnJ7dAYQJlCXmHlQtBHok82z+g==
+
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz#e5d2e450306a9491e3bd77e323e38d7aff315996"
