@@ -25,6 +25,9 @@
           "./*"
         ],
       },
+      "types": [
+        "vite/client",
+      ],
       "lib": [
         "esnext",
       ]

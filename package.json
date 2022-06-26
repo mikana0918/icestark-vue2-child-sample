@@ -12,7 +12,8 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "vite": "^2.9.12"
+    "vite": "^2.9.12",
+    "vite-plugin-externals": "^0.5.0"
   },
   "dependencies": {
     "@ice/stark-app": "^1.5.0",
