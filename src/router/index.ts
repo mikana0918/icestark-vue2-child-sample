@@ -5,6 +5,7 @@ import Vue2Options from '@/components/Vue2Options.vue'
 import Vue2Class from '@/components/Vue2Class.vue'
 import Vue2PropertyDecorator from '@/components/Vue2PropertyDecorator.vue'
 import { getBasename } from "@ice/stark-app/lib";
+import { isInIcestark } from "@ice/stark-app/lib";
 
 Vue.use(Router)
 
@@ -41,6 +42,8 @@ const router = new Router({
 })
 
 // when microfrontend base url changed, always push as history
-router.push(getBasename());
+if(isInIcestark) {
+  router.push(getBasename());
+}
 
 export default router
